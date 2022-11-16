@@ -1,0 +1,173 @@
+.div-container-textos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15em;
+    width: 20%;
+    gap:0.3rem;
+    margin-left: 20em;
+    h3{
+        font-size: 2em;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 2em;
+        font-weight: 800;
+    }
+}
+.contenedor {
+    max-width:1000px; //Utilizar esta propiedad, hace bastante responsive el diseño
+
+    margin: 0 auto;
+    margin-left: 50em;
+    transform: translateY(-280px);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+  
+  .cartita {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    padding: 2rem;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color:red;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+  }
+  
+  .cartita2 {
+    align-self: center;
+    grid-row: span 2;
+    width: 20em;
+  }
+
+
+.h2-blog{
+    margin-left: 15em;
+    margin-bottom: 2em;
+    width: 50%;
+}
+.section-blog{
+    display: flex;
+    gap:5rem; //Espaciado entre las imagenes del blog
+    justify-content: center;
+    .article-blog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        a{
+   
+       img{
+                width: 20em;
+                
+            }
+        }
+        
+        
+        h3,p{
+            width: 16em;
+        }
+    }
+}
+
+@media screen and(max-width:1360px) {
+    .div-container-textos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2em;
+        gap:0.3rem;
+        margin-left: 20em;
+        width: 70%;
+        margin: 20px auto;
+        h3{
+            font-size: 2em;
+            font-weight: 400;
+        }
+        h2{
+            font-size: 2em;
+            font-weight: 800;
+            width: 100%;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    .contenedor {
+        max-width:1000px; //Utilizar esta propiedad, hace bastante responsive el diseño
+        margin-top: 20em;
+        margin-left: 15em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+      
+      .cartita {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        padding: 2rem;
+        text-align: center;
+        width: 70%;
+        a{
+            text-decoration: none;
+            color:red;
+        }
+        h3{
+            font-size: 1.5em;
+        }
+      }
+      
+      .cartita2 {
+        align-self: center;
+        grid-row: span 2;
+        width: 80%;
+       
+      }
+      .section-blog{
+        flex-wrap: wrap;
+      }
+      .h2-blog{
+        margin-left: 5em;
+        margin-bottom: 2em;
+        width: 50%;
+    }
+    
+}
+@media screen and(max-width:760px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+       
+       
+       
+    }
+    .div-container-textos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5em;
+        width: 50%;
+        gap:0.3rem;
+        margin:5 auto;
+        h3{
+            font-size: 2em;
+            font-weight: 400;
+        }
+        h2{
+            font-size: 2em;
+            font-weight: 800;
+            width: 90%;
+        }
+        p{
+            width:100%;
+        }
+    }
+}

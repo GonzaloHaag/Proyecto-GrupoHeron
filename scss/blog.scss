@@ -1,0 +1,329 @@
+.blog-textos{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:0.5rem;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 3.5rem;
+    }
+    p{
+       
+        width: 60%;
+        
+    }
+}
+.blog-imagenes{ 
+    margin-top: 5em;
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    
+    text-align: center;
+    gap: 1.5rem;
+    grid-template-areas:
+      "img1 img2"
+      "img3 img4"
+      "img5 img6"
+      "img7 img8"
+      ". .";
+  }
+  
+  .img1 { 
+    grid-area: img1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        img{
+            width: 25em;
+        }
+    }
+    h3,p{
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+    }
+}
+  
+  .img2 {
+     grid-area: img2; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     a{
+        img{
+            width: 25em;
+        }
+    }
+    h3,p{
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  
+  .img3 {
+     grid-area: img3; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     a{
+        img{
+            width: 25em;
+        }
+    }
+    h3,p{
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  
+  .img4 {
+     grid-area: img4; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     a{
+        img{
+            width: 25em;
+        }
+    }
+    h3,p{
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  
+  .img5 {
+     grid-area: img5; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     a{
+        img{
+            width: 25em;
+        }
+    }
+    h3,p{
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  
+  .img6 {
+     grid-area: img6; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     a{
+        img{
+            width: 25em;
+        }
+    }
+    h3,p{
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  
+  .img7 {
+     grid-area: img7;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     a{
+        img{
+            width: 25em;
+        }
+    }
+    h3,p{
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  
+  .img8 {
+     grid-area: img8; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     a{
+        img{
+            width: 25em;
+        }
+    }
+    h3,p{
+        width: 20em;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+
+    @media screen and(max-width:845px) {
+        .blog-imagenes{ 
+            margin-top: 5em;
+             display: grid;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-auto-columns: 1fr;
+            
+            text-align: center;
+            gap: 1.5rem;
+            grid-template-areas:
+              "img1 img1"
+              "img2 img2"
+              "img3 img3"
+              "img4 img4"
+              "img5 img5"
+              "img6 img6"
+              "img7 img7"
+              "img8 img8"
+              ". .";
+          }
+          
+          .img1 { 
+            grid-area: img1; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a{
+                img{
+                    width: 25em;
+                }
+            }
+            h3,p{
+                width: 20em;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+          
+          .img2 {
+             grid-area: img2; 
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             a{
+                img{
+                    width: 25em;
+                }
+            }
+            h3,p{
+                width: 20em;
+                justify-content: center;
+                align-items: center;
+            }
+            }
+          
+          .img3 {
+             grid-area: img3; 
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             a{
+                img{
+                    width: 25em;
+                }
+            }
+            h3,p{
+                width: 20em;
+                justify-content: center;
+                align-items: center;
+            }
+            }
+          
+          .img4 {
+             grid-area: img4; 
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             a{
+                img{
+                    width: 25em;
+                }
+            }
+            h3,p{
+                width: 20em;
+                justify-content: center;
+                align-items: center;
+            }
+            }
+          
+          .img5 {
+             grid-area: img5; 
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             a{
+                img{
+                    width: 25em;
+                }
+            }
+            h3,p{
+                width: 20em;
+                justify-content: center;
+                align-items: center;
+            }
+            }
+          
+          .img6 {
+             grid-area: img6; 
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             a{
+                img{
+                    width: 25em;
+                }
+            }
+            h3,p{
+                width: 20em;
+                justify-content: center;
+                align-items: center;
+            }
+            }
+          
+          .img7 {
+             grid-area: img7;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             a{
+                img{
+                    width: 25em;
+                }
+            }
+            h3,p{
+                width: 20em;
+                justify-content: center;
+                align-items: center;
+            }
+            }
+          
+          .img8 {
+             grid-area: img8; 
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             a{
+                img{
+                    width: 25em;
+                }
+            }
+            h3,p{
+                width: 20em;
+                justify-content: center;
+                align-items: center;
+            }
+            }
+    }
+    

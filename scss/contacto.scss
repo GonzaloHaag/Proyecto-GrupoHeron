@@ -1,0 +1,56 @@
+.main-contacto{
+    margin-top: 61px;
+   
+
+    form{
+        width: 450px;
+        margin: auto;
+       
+        background-color: rgba(0,0,0,0.4); //TRANSPARENCIA
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin-top:20px ;
+        border-radius: 7px;
+        h2{
+            color:rgb(13, 13, 58);
+            text-align: center;
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        input,textarea{
+            width: 100%;
+            margin-bottom: 20px;
+            padding:7px;
+            box-sizing: border-box; //Para que ocupe el ancho realmente el 100%
+            font-size: 17px;
+        }
+        textarea{
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 100%; //ANCHO MAXIMO, PARA QUE NO SE SALGA DEL FORMULARIO
+    
+        }
+        #boton{ /*ASI SE LLAMA EL ID QUE LE PUSIMOS*/
+            background-color: #31384A;
+            color:#fff;
+            padding:20px;
+            &:hover{
+                cursor: pointer;
+                background-color: #5a647c;
+            }
+    
+        }
+    
+    
+    }
+    }
+    @media(max-width:480px){ //PORQUE MI FORM ES DE WITH 450PX
+        .main-contacto{
+            form{
+                width: 100%;
+            }
+    
+        }
+    }
